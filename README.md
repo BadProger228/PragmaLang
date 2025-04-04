@@ -41,12 +41,15 @@ The language is minimalistic and currently supports basic constructs like variab
 
 ## Example Syntax
 ```ruby
-int x = 5
-float y = 3.14
-if x > 3
-  float z = y
+a = 19.0
+b = 17
+c = a + b - 14.0
+
+if a + c > b
+  a = c + b
+  z = 18
 else
-  int z = x
+  a = c - b
 end
 ```
 
